@@ -1,0 +1,197 @@
+/*
++----------------------------------------------------------------+
+	Reset CSS
++----------------------------------------------------------------+
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {margin:0; padding:0; border:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline;}
+img { border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+
+/*
++----------------------------------------------------------------+
+	Básicos
++----------------------------------------------------------------+
+*/
+body { background-attachment: fixed; background-image: url(../images/bg.jpg); background-repeat: no-repeat; background-position: center top; }
+.pontoZero { position: relative; }
+.clear { clear:both}
+.desloca-esq { float:left}
+.desloca-dir {float:right}
+.alling-esq { text-align:left}
+.alling-dir {text-align:right}
+.alling-centro {text-align:center}
+.alling-justifica { text-align: justify; }
+
+.margem20-esq { margin-left:20px}
+.margem20-dir {margin-right:20px}
+.margem18-esq { margin-left:18px}
+.margem18-dir {margin-right:18px}
+.margem12-esq { margin-left:12px}
+.margem12-dir {margin-right:12px}
+.italico { font-style: italic; }
+.negrito { font-weight: bold; }
+.semi-negrito { font-weight: 600!important; }
+.botao { cursor: pointer; }
+.sem-esp { margin:0px!important; padding:0px!important;}
+.botVoltar { margin-top: 30px; }
+.capsula { width: 800px; margin-right: auto; margin-left: auto; }
+.linha-vermelha { background-image: url(../images/bgLinha.png); background-repeat: repeat-x; display: block; margin-top: 10px; margin-bottom: 10px; height: 1px; }
+
+/*
++----------------------------------------------------------------+
+	Textos
++----------------------------------------------------------------+
+*/
+p { font-family: Arial, Helvetica, sans-serif; padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 13px; margin-left: 0px; }
+.t10 { font-size: 10px!important; line-height: 13px!important; }
+.t11 {
+	font-size: 11px!important;
+	line-height: 14px!important;
+	padding-top: 5px;
+}
+.t12 { font-size: 12px!important; line-height: 15px!important; }
+.t14 { font-size: 14px!important; line-height: 17px!important; }
+.t15 { font-size: 15px!important; line-height: 22px!important; }
+.t18 { font-size: 18px!important; line-height: 21px!important; }
+.t25 { font-size: 25px!important; line-height: 25px!important; }
+.azul { color:#006699!important; }
+.azul-escuro { color:#334A6C!important; }
+.azul-escuro2 { color:#006699!important; }
+.azul-claro { color:#A4BCC2!important; }
+.azul-medio { color:#608199!important; }
+.amarelo { color:#B2996C!important; }
+.vermelho { color: #CC0000!important; }
+.cinza { color: #666!important; }
+.cinza-escuro { color: #333!important; }
+.cinza-claro { color: #999!important; }
+
+
+/*
++----------------------------------------------------------------+
+	Header
++----------------------------------------------------------------+
+*/
+#header { width: 800px; margin-right: auto; margin-left: auto; margin-bottom: 50px; }
+#header h1 { background-image: url(../images/logo.png); float: left; height: 33px; width: 165px; margin-top: 41px; margin-right: 120px; }
+#header ul.menu { float: right; width: 492px; margin-top: 47px; height: 19px; padding: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+#header ul.menu li { display: block; float: left; height: 19px; margin: 0px; padding: 0px; list-style-type: none; }
+#header ul.menu li a { text-decoration: none; display: block; float: left; height: 19px; text-indent: -10000px; }
+#header ul.menu li a:hover { display: block; background-position: 0px -19px; }
+#header ul.menu li a.link01 { background-image: url(../images/menu/1.png); width: 50px; }
+#header ul.menu li a.link02 { background-image: url(../images/menu/2.png); width: 124px; }
+#header ul.menu li a.link03 { background-image: url(../images/menu/3.png); width: 138px; }
+#header ul.menu li a.link04 { background-image: url(../images/menu/4.png); width: 71px; }
+#header ul.menu li a.link05 { background-image: url(../images/menu/5.png); width: 109px; }
+
+#header ul.menu li a.link01-ativo { background-image: url(../images/menu/1.png); width: 50px; background-position: 0px -19px; }
+#header ul.menu li a.link02-ativo { background-image: url(../images/menu/2.png); width: 124px; background-position: 0px -19px; }
+#header ul.menu li a.link03-ativo { background-image: url(../images/menu/3.png); width: 138px; background-position: 0px -19px; }
+#header ul.menu li a.link04-ativo { background-image: url(../images/menu/4.png); width: 71px; background-position: 0px -19px; }
+#header ul.menu li a.link05-ativo { background-image: url(../images/menu/5.png); width: 109px; background-position: 0px -19px; }
+
+
+.entreMenus { width: 20px; }
+.pontoZero ul.sub { height: 78px!important; width: 113px!important; position: absolute; margin: 0px!important; padding: 0px!important; left: 497px; top: -9px; display: block; }
+.pontoZero ul.sub li { list-style-type: none; margin: 0px; padding: 0px; }
+.pontoZero ul.sub li a { font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #7FA6B8; text-decoration: none; text-indent: 1!important; width: 113px!important; clear: both; display: block; padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; }
+
+.pontoZero ul.sub2 { height: 78px!important; width: 113px!important; position: absolute; margin: 0px!important; padding: 0px!important; left: 638px; top: -9px; display: block; }
+.pontoZero ul.sub2 li { list-style-type: none; margin: 0px; padding: 0px; }
+.pontoZero ul.sub2 li a { font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #7FA6B8; text-decoration: none; text-indent: 1!important; width: 113px!important; clear: both; display: block; padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; }
+
+
+/*
++----------------------------------------------------------------+
+	Corpo
++----------------------------------------------------------------+
+*/
+.banner { margin-bottom: 2px; }
+.quadro-corpo-linha01 { background-image: url(../images/bg1.png); background-repeat: repeat-x; background-position: center bottom; }
+.quadro-corpo-linha02 { background-image: url(../images/bg2.png); background-repeat: repeat-x; background-position: center bottom; }
+.quadro-corpo-linha03 { background-image: url(../images/bg3.png); background-repeat: repeat-x; background-position: center bottom; }
+.coluna01-home { float: left; width: 247px; margin-right: 16px; height: 332px; }
+.coluna01-home h2.titIncorporacoes { background-image: url(../images/titulos/titIncorporacoes.gif); height: 22px; width: 238px; margin-top: 29px; margin-bottom: 12px; }
+.coluna01-home h2.titEmpreendimentos { background-image: url(../images/titulos/titEmpreendimentos.gif); height: 22px; width: 238px; margin-top: 29px; margin-bottom: 12px; }
+
+
+.coluna02-home { float: left; width: 247px; margin-right: 6px; }
+.coluna02-home h2.titObras { background-image: url(../images/titulos/titObras.gif); height: 22px; width: 237px; margin-top: 29px; margin-bottom: 12px; }
+
+.coluna03-home { float: right; width: 284px; }
+.coluna03-home .bloco-branco-home { background-color: #FFF; width: 238px; margin-top: 1px; margin-right: 1px; margin-bottom: 10px; margin-left: 9px; padding-top: 13px; padding-right: 18px; padding-bottom: 13px; padding-left: 18px; }
+.coluna03-home .bloco-branco-home h2.titConheca { background-image: url(../images/titulos/titConheca.gif); height: 22px; width: 238px; margin-bottom: 12px; }
+
+.box-gal { height: 224px; width: 380px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: #C2CBCE; border-bottom-color: #C2CBCE; border-left-color: #C2CBCE; overflow: hidden; }
+
+.mapa {
+	border: 1px solid #CCC;
+	height: 224px;
+	width: 382px;
+	position: relative;
+}
+.mapa .endMapa { position: absolute; bottom: 0px; background-image: url(../images/bgEndMapa.png); text-align: center; padding-top: 4px; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFF; width: 380px; }
+.mapa .endMapa2 { position: absolute; bottom: 0px; background-image: url(../images/bgEndMapa02.png); text-align: center; padding-top: 4px; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFF; width: 380px; }
+.mapa .endMapa3 { position: absolute; bottom: 0px; background-image: url(../images/bgEndMapa03.png); text-align: center; padding-top: 4px; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFF; width: 380px; }
+.mapa .endMapa4 { position: absolute; bottom: 0px; background-image: url(../images/bgEndMapa04.png); text-align: center; padding-top: 4px; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFF; width: 380px; }
+
+.pontoZero .anima { height: 18px; width: 153px; display: block; position: absolute; left: 102px; top: -23px; }
+
+/*
++----------------------------------------------------------------+
+	Institucional Interna
++----------------------------------------------------------------+
+*/
+h2.titInstitucionalInterna { background-image: url(../images/titulos/titInstitucionalInterna.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+
+
+/*
++----------------------------------------------------------------+
+	Breve Lançamento Interna
++----------------------------------------------------------------+
+*/
+h2.titBreveLancamentoInterna { background-image: url(../images/titulos/titBreveLancamentoInterna.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titLancamentoInterna { background-image: url(../images/titulos/titLancamentoInterna.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titProntoParaMorarInterna { background-image: url(../images/titulos/titProntoParaMorar.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titConcluidoInterna { background-image: url(../images/titulos/titConcluido.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titObrasPrediaisInterna { background-image: url(../images/titulos/titObrasPrediais.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titObrasIndustriaisInterna { background-image: url(../images/titulos/titObrasIndustriais.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titObrasComerciaisInterna { background-image: url(../images/titulos/titObrasComerciais.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titObrasCorporativasInterna { background-image: url(../images/titulos/titObrasCorporativas.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titContatoInterna { background-image: url(../images/titulos/titFaleConosco.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+h2.titEmpreendimentosInterna { background-image: url(../images/titulos/titEmpreendimentosInterna.gif); height: 36px; width: 798px; margin-bottom: 10px; background-repeat: no-repeat; }
+
+
+
+/*
++----------------------------------------------------------------+
+	Breve Lançamento Interna
++----------------------------------------------------------------+
+*/
+.contato-quadro-branco { background-color: #FFF; padding-top: 19px; padding-right: 21px; padding-bottom: 19px; padding-left: 21px; margin: 0px; }
+
+
+
+#frmEntreContato label { display: block; margin-bottom: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666; }
+#frmEntreContato .campo01 { background-image: url(../images/c1.jpg); height: 26px; width: 251px; padding-right: 10px; padding-left: 10px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+#frmEntreContato .campo02 { background-image: url(../images/c2.jpg); height: 46px; width: 251px; padding-right: 10px; padding-left: 10px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; resize: none }
+
+#frmContato label { display: block; margin-bottom: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666; }
+#frmContato .campo01 { background-image: url(../images/c3.jpg); height: 25px; width: 322px; padding-right: 10px; padding-left: 10px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+#frmContato .campo02 { background-image: url(../images/c4.jpg); height: 152px; width: 322px; padding-right: 10px; padding-left: 10px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; resize: none }
+
+/*
++----------------------------------------------------------------+
+	Rodape
++----------------------------------------------------------------+
+*/
+.rodape { background-image: url(../images/bgRodape.png); background-repeat: repeat-x; height: 50px; margin-top: 18px; }
+.barra-titulo {
+	color: #FFF;
+	background-color: #34496C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery lightbox clone - prettyPhoto - by Stephane Caron</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+		<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+		
+		<style type="text/css" media="screen">
+			* { margin: 0; padding: 0; }
+			
+			body {
+	padding: 0 20px;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 62.5%;
+	line-height: 1.2;
+	background-color: #FFF;
+			}
+			
+			h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
+			
+			h2 {
+				font-family: Georgia;
+				font-style: italic;
+				margin: 25px 0 5px 0;
+			}
+			
+			p { font-size: 1.2em; }
+			
+			ul li { display: inline; }
+			
+			.wide {
+				border-bottom: 1px #000 solid;
+				width: 4000px;
+			}
+			
+			.fleft { float: left; margin: 0 20px 0 0; }
+			
+			.cboth { clear: both; }
+			
+			#main {
+	background: #fff;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding: 30px;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="main">
+<ul class="gallery clearfix">
+	  <a href="../galleria/fotos/abrin2011/1-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/1-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+	  <a href="../galleria/fotos/abrin2011/2-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/2-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+	  <a href="../galleria/fotos/abrin2011/3-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/3-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/4-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/4-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/5-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/5-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/6-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/6-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/7-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/7-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/8-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/8-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/9-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/9-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/10-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/10-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/11-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/11-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/12-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/12-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/13-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/13-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/14-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/14-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/15-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/15-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/16-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/16-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/17-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/17-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/18-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/18-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/19-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/19-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/20-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/20-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/21-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/21-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/22-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/22-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/23-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/23-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/24-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/24-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/25-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/25-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/26-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/26-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/27-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/27-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/28-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/28-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/29-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/29-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/30-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/30-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/31-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/31-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/32-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/32-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/33-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/33-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/34-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/34-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/35-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/35-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/36-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/36-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/37-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/37-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/38-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/38-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/39-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/39-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/40-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/40-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/41-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/41-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/42-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/42-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/43-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/43-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+      <a href="../galleria/fotos/abrin2011/44-Bang.jpg" rel="prettyPhoto[gallery1]"><img src="../galleria/fotos/abrin2011/44-Bang.jpg"  width="85" height="60" alt="Abrin 2011" border="0"></a>
+
+</ul>
+
+
+			  <script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyPhoto']").prettyPhoto();
+				
+				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:3000, autoplay_slideshow: false});
+				$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+		
+				$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+					changepicturecallback: function(){ initialize(); }
+				});
+
+				$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+					changepicturecallback: function(){ _bsap.exec(); }
+				});
+			});
+			  </script>
+	
+	
+</div>
+	</body>
+</html>

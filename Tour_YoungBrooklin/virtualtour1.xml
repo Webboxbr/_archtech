@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- for xml compliance -->
+<krpano version="1.0.8.14">
+    <!-- ação a desenvolver enquanto carrega -->
+    <events onxmlcomplete="onxmlcompleteaction();"/>
+    <action name="onxmlcompleteaction">
+		unselectmapspotsbutpassed();
+		selectmapspot(mapspot0,270);
+		firstloadcompleteaction();
+	</action>
+    <action name="playpanosounds">
+		playbackgroundsound(none);
+	</action>
+    <action name="stoppanosounds">
+		stopbackgroundsound();
+	</action>
+    <action name="closepanoobjects">
+	</action>
+    <!--************** Panorâmica *****************************************************************-->
+    <!-- @File="virtualtour1.xml" @PanoName="Terraço Gourmet" @FilePath="/Users/dbcruz/Desktop/Young Brooklin/TerracoGourmet.jpg" -->
+    <panoview h="0" v="0" fov="90"/>
+    <!-- visualizar parâmetros -->
+    <view fisheye="0" limitview="range" hlookatmin="-180" hlookatmax="180" vlookatmin="-89.9302" vlookatmax="77.9302" maxpixelzoom="1.0" fovmax="90" fov="90" hlookat="0" vlookat="0"/>
+    <progress showwait="none"/>
+    <autorotate horizon="0" tofov="90" waittime="1" speed="5"/>
+    <!-- pré visualizar imagem -->
+    <preview url="virtualtourdata/virtualtour1/preview.jpg"/>
+    <!-- a própria panorâmica -->
+    <image type="SPHERE" hfov="360" vfov="167.86" voffset="-6" multires="true" tilesize="982" baseindex="0">
+        <level tiledimagewidth="8422" tiledimageheight="3927">
+            <sphere url="virtualtourdata/virtualtour1/2/%v_%u.jpg"/>
+        </level>
+        <level tiledimagewidth="4211" tiledimageheight="1963">
+            <sphere url="virtualtourdata/virtualtour1/1/%v_%u.jpg"/>
+        </level>
+        <level tiledimagewidth="2105" tiledimageheight="981">
+            <sphere url="virtualtourdata/virtualtour1/0/%v_%u.jpg"/>
+        </level>
+        <!-- mobile phone / iphone images -->
+        <mobile>
+            <left url="virtualtourdata/virtualtour1/mobile/3/mobile_face.jpg"/>
+            <front url="virtualtourdata/virtualtour1/mobile/0/mobile_face.jpg"/>
+            <right url="virtualtourdata/virtualtour1/mobile/1/mobile_face.jpg"/>
+            <back url="virtualtourdata/virtualtour1/mobile/2/mobile_face.jpg"/>
+            <up url="virtualtourdata/virtualtour1/mobile/4/mobile_face.jpg"/>
+            <down url="virtualtourdata/virtualtour1/mobile/5/mobile_face.jpg"/>
+        </mobile>
+        <!-- tablet pc / ipad images -->
+        <tablet>
+            <left url="virtualtourdata/virtualtour1/mobile/3/tablet_face.jpg"/>
+            <front url="virtualtourdata/virtualtour1/mobile/0/tablet_face.jpg"/>
+            <right url="virtualtourdata/virtualtour1/mobile/1/tablet_face.jpg"/>
+            <back url="virtualtourdata/virtualtour1/mobile/2/tablet_face.jpg"/>
+            <up url="virtualtourdata/virtualtour1/mobile/4/tablet_face.jpg"/>
+            <down url="virtualtourdata/virtualtour1/mobile/5/tablet_face.jpg"/>
+        </tablet>
+    </image>
+    <!--************** Atalhos e Brilhos de Lente *************************************************-->
+    <action name="hidepanospotsaction">
+	</action>
+    <action name="showpanospotsaction">
+	</action>
+    <!-- fechar todas as panorâmicas -->
+</krpano>
