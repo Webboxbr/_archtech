@@ -28,6 +28,7 @@ mail.addrecipient "Contato ARCHTECH","sac@archtech.com.br"
 	if tipo="play" then
 	mail.addrecipient "Contato ARCHTECH","vendas@playimovel.com.br"
 	mail.addrecipient "Contato ARCHTECH","thamires@playimovel.com.br"
+
 	elseif tipo="flex" then
 	'mail.addrecipient "Contato ARCHTECH","vendas@fleximoveis.com.br"
 	end if
